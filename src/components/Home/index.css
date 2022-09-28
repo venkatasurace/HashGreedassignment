@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-con{
+    background-image: linear-gradient(#521d40,#222022);
+}
+@media only screen and (min-width: 1025px) {
+.con-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+.pr4{
+    display: none;
+}
+.top-image{
+    padding-right: 30px;
+    height: 450px;
+    border-radius: 5px;
+    width: 450px;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    font-family: "calibri";
+}
+.text{
+    color: white;
+    font-family: "calibri";
+}
+.t-h1{
+    margin-left: 50px;
+}
+
+.btn-1{
+background-color: #de1f9b;
+border-width: none;
+padding: 15px;
+width: 150px;
+border-radius: 15px 1px;
+margin: 20px;
+color: white;
+}
+.btn-2{
+    background-color:transparent;
+    border-width: none;
+    padding: 15px;
+    width: 150px;
+    border-radius: 15px 1px;
+    color: white;
+    }
+.bottom-heading{
+    text-align: center;
+    color: white;
+}
+
+.img-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hd{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.tt{
+    color: white;
+    font-family: "calibri";
+}
+.tt1{
+    text-align: center;
+}
+
+.btn-con1{
+    text-align: center;
+}
+.btn-3{
+width: 200px;
+padding: 15px;
+border-radius: 15px 1px;
+background-color: #de1f9b;
+color: white;
+border-width: none;
+margin: 15px;
+}
+
+.bottom-text{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "calibri";
+    color: white;
+    font-size: 20px;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .con-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .top-image{
+        padding-right: 30px;
+        height: 450px;
+        border-radius: 5px;
+        width: 450px;
+    }
+    .heading{
+        color: white;
+        font-size: 50px;
+        font-family: "calibri";
+        text-align: center;
+    }
+    .text{
+        color: white;
+        font-family: "calibri";
+        text-align: center;
+    }
+    .t-h1{
+        margin-left: 50px;
+    }
+    .btn-con{
+        text-align: center;
+    }
+    
+    .btn-1{
+    background-color: #de1f9b;
+    border-width: none;
+    padding: 15px;
+    width: 150px;
+    border-radius: 15px 1px;
+    margin: 20px;
+    color: white;
+    }
+    .btn-2{
+        background-color:transparent;
+        border-width: none;
+        padding: 15px;
+        width: 150px;
+        border-radius: 15px 1px;
+        color: white;
+        }
+    .bottom-heading{
+        text-align: center;
+        color: white;
+    }
+    
+    .img-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .hd{
+        color: white;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .tt{
+        color: white;
+        font-family: "calibri";
+    }
+    .tt1{
+        text-align: center;
+    }
+    
+    .btn-con1{
+        text-align: center;
+    }
+    .box1{
+        align-self: flex-start;
+    }
+    .box2{
+        align-self: center;
+    }
+    .box3{
+        align-self: flex-start;
+    }
+    .btn-3{
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px 1px;
+    background-color: #de1f9b;
+    color: white;
+    border-width: none;
+    margin: 15px;
+    }
+    
+    .bottom-text{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-family: "calibri";
+        color: white;
+        font-size: 20px;
+    }
+    .pro2{
+        height: 100px;
+        width: 100px;
+        display: none;
+    }
+    .pro4{
+        
+        height: 100px;
+        width: 100px; 
+        display: none;
+    }
+}
